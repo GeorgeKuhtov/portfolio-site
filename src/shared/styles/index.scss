@@ -1,3 +1,5 @@
+@use './variables';
+
 * {
   margin: 0;
   padding: 0;
@@ -8,5 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  // background-color: #111111;
+  background: var(--gradient-hero);
+  color: var(--text);
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 }

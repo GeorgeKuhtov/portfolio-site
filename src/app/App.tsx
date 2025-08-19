@@ -12,10 +12,18 @@ export function App() {
     <div className="app">
       <Header />
       <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
+        <section id="about">
+          <Hero />
+        </section>
+        <section id="skills">
+          <About />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>
