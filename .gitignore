@@ -37,3 +37,6 @@ build
 .tmp
 *.tmp
 *.temp
+
+
+color-demos

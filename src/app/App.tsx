@@ -1,13 +1,23 @@
-import { BrowserRouter } from 'react-router-dom';
-import { AppRouter } from './router.tsx';
+import { Header } from '../widgets/Header';
+import { Hero } from '../widgets/Hero';
+import { About } from '../widgets/About';
+
+import { Projects } from '../widgets/Projects';
+import { Contact } from '../widgets/Contact';
+import { Footer } from '../widgets/Footer';
 import '../shared/styles/index.scss';
 
 export function App() {
   return (
-    <BrowserRouter>
-      <div className="app">
-        <AppRouter />
-      </div>
-    </BrowserRouter>
+    <div className="app">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   );
 }

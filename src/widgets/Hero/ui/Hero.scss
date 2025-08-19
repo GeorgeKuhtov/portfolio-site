@@ -1,0 +1,29 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+
+  &__container {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4fr;
+    align-items: center;
+  }
+
+  &__title {
+    margin: 1rem;
+    font-size: clamp(2rem, 6vw, 2rem);
+  }
+  &__name {
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 800;
+  }
+}
