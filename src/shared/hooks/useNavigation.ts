@@ -16,7 +16,6 @@ export const useNavigation = () => {
       },
       {
         threshold: 0.5,
-
         rootMargin: '-80px 0px 0px 0px',
       }
     );
